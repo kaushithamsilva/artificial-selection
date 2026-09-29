@@ -1,0 +1,7 @@
+# Small population and short phases for a fast smoke-test run.
+population_size = 200
+genome_length = 32
+mutation_rate = 0.03125
+phase_1_generations = 30
+phase_2_generations = 30
+seed = 42

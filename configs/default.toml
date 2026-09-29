@@ -1,0 +1,17 @@
+# Phase 1 settles by ~gen 20-30; phase 2 keeps slowly depleting B/N through
+# its window without fully flattening -- raise phase_2_generations for that.
+population_size = 1000
+genome_length = 32
+mutation_rate = 0.03       # 1/32, ~1 bit flip per genome on average
+phase_1_generations = 100
+phase_2_generations = 50
+seed = 42
+
+# Substrate depletion model (see core/genetics.py). k_bone/k_energy are
+# physical constants shared by both phases, not duplicated per phase.
+k_bone = 0.8
+k_energy = 0.6
+b_min = 2.0
+n_min = 2.0
+viability_steepness = 2.0
+artificial_alpha = 2.0

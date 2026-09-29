@@ -1,0 +1,8 @@
+# Explore whether a much higher mutation rate erodes the artificial-selection
+# spike or speeds up bone/energy drift in phase 1.
+population_size = 1000
+genome_length = 32
+mutation_rate = 0.10
+phase_1_generations = 200
+phase_2_generations = 200
+seed = 42
