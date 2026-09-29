@@ -1,5 +1,7 @@
 # Artificial Selection
 
+Accompanying note: [kaushitha.xyz/notes/artificial-selection](https://kaushitha.xyz/notes/artificial-selection)
+
 A genetic-algorithm simulation of avian domestication: what happens to a bird
 population when selection pressure switches from natural selection (survival
 in the wild) to artificial selection (a farmer breeding purely for egg
